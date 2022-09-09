@@ -1,0 +1,21 @@
+h1 {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+.icon-container {
+    background-color: rgb(125, 149, 166);
+    height: 400px;
+}
+
+.icon {
+    max-width: 200px;
+    padding-top: 10px;
+    position: relative;
+    left: 240px;
+    top: 50px;
+}
