@@ -1,0 +1,49 @@
+.contact-info {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    max-width: 300px;
+    background-color: rgba(2, 42, 114, 255);
+
+    padding: 15px;
+    float: right;
+    position: absolute;
+    top: 115px;
+    right: 200px;
+}
+
+h2 {
+    font-size: 1.35rem;
+    font-weight:lighter;
+    padding: 10px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+h3 {
+    font-size: 1.05rem;
+    font-weight:lighter;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+h4 {
+    font-weight: normal;
+    max-width: 500px;
+
+    padding-top: 10px;
+    margin-left: 15%;
+    margin-top: 2%;
+    border-top: solid;
+    border-top-width: 2px;
+}
+
+i {
+    font-size: 1.3rem;
+    color: #ffc704;
+    padding-right: 10px;
+}
+
+.fa-instagram {
+    font-size: 1.5rem;
+}
