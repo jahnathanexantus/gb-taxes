@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import companyIcon from '../../images/PROLIFICTAXICON.png';
+import companyIcon from '../../images/PROLIFICTAXICON1.png';
 
 const Header = () => {
 
