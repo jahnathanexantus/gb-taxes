@@ -1,13 +1,13 @@
 .contact-info {
     border-radius: 20px;
-    box-shadow: 5px 5px 10px;
-    max-width: 300px;
+    box-shadow: 3px 3px 5px;
+    max-width: 400px;
     background-color: rgba(2, 42, 114, 255);
 
     padding: 15px;
     float: right;
     position: absolute;
-    top: 115px;
+    top: 100px;
     right: 200px;
 }
 
@@ -27,13 +27,17 @@ h3 {
     color: white;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 h4 {
-    font-weight: normal;
-    max-width: 500px;
+    max-width: 600px;
 
     padding-top: 10px;
-    margin-left: 15%;
-    margin-top: 2%;
+    margin-left: 220px;
+    margin-top: 3%;
     border-top: solid;
     border-top-width: 2px;
 }
@@ -46,4 +50,93 @@ i {
 
 .fa-instagram {
     font-size: 1.5rem;
+}
+
+.businessImage {
+
+    max-width: 100%;
+    opacity: 40%;
+}
+
+.topleft {
+    position: absolute;
+    top: 50%;
+  }
+
+@media screen and (max-width: 1100px) {
+
+    h2 {
+        font-size: .9rem;
+    }
+
+    h3 {
+        font-size: .75rem;
+    }
+
+    h4 {
+        max-width: 400px;
+        font-size: 10pt;
+    }
+
+    i {
+        font-size: .8rem;
+    }
+
+    .fa-instagram {
+        font-size: .9rem;
+    }
+
+    .contact-info {
+        position: absolute;
+        top: 5%;
+        right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    .contact-info {
+        max-width: 200px;
+        max-height: 200px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    h2 {
+        font-size: .75rem;
+        font-weight:lighter;
+        padding: 5px;
+        padding-bottom: 10px;
+    }
+    
+    h3 {
+        font-size: .5rem;
+        font-weight:lighter;
+        padding-left: 5px;
+        padding-bottom: 5px;
+    }
+
+    .businessImage {
+        position: absolute;
+        bottom: -10px;
+    }
+
+    h4 {
+        font-size: .75rem;
+        margin-left: 30px;
+        margin-right: 30px;
+        position: relative;
+        top: -40px;
+    }
+
+  }
+
+  @media screen and (max-height: 500px) {
+
+    .contact-info {
+        max-width: 300px;
+    }
+
 }
