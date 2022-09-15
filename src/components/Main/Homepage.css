@@ -63,6 +63,14 @@ i {
     top: 50%;
   }
 
+  @media screen and (min-width: 1960px) {
+
+    .contact-info {
+        max-width: 500px;
+    }
+    
+}
+
 @media screen and (max-width: 1100px) {
 
     h2 {
